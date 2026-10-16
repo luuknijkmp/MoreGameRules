@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "moregamerules",
+	"version": "${version}",
+	"name": "MoreGameRules",
+	"description": "Adds new gamerules to Minecraft, giving you more control over mob behavior, block interactions, and world mechanics.",
+	"authors": [
+		"Siskin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/moregamerules/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"siskin.moregamerules.MoreGameRules"
+		],
+		"client": [
+			"siskin.moregamerules.client.MoreGameRulesClient"
+		]
+	},
+	"mixins": [
+		"moregamerules.mixins.json",
+		{
+			"config": "moregamerules.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"required": true,
+	"package": "siskin.moregamerules.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"world.SprucePodzolMixin",
+		"mob.EndermanTakeBlockMixin",
+		"mob.EndermanLeaveBlockMixin",
+		"mob.CreeperBlockDamageMixin",
+		"mob.GhastBlockDamageMixin",
+		"mob.GhastFireMixin",
+		"world.IceFormationMixin",
+		"block.FarmlandTramplingMixin",
+		"block.BambooGrowthMixin",
+		"block.LeafDecayMixin",
+		"block.GrassSpreadMixin",
+		"block.CoralDeathMixin",
+		"block.CoralFanDeathMixin",
+		"block.CoralWallFanDeathMixin",
+		"block.ConcreteHardeningMixin",
+		"block.CopperOxidationMixin",
+		"block.PistonBlockBreakingMixin",
+		"block.ObserverUpdatesMixin",
+		"entity.TntBlockDamageMixin",
+		"mob.SlimeSpawningMixin",
+		"mob.DrownedConversionMixin",
+		"mob.ZombieVillagerConversionMixin",
+		"mob.DoorInteractGoalAccessor",
+		"mob.ZombieDoorBreakingMixin",
+		"mob.VillagerCropHarvestingMixin",
+		"mob.FoxItemPickupMixin",
+		"mob.WolfTeleportingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
