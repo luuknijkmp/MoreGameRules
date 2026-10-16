@@ -8,10 +8,11 @@
 		"Siskin"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/moregamerules-siskin",
+		"sources": "https://github.com/luuknijkmp/MoreGameRules",
+		"issues": "https://github.com/luuknijkmp/MoreGameRules/issues/"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/moregamerules/icon.png",
 	"environment": "*",
 	"entrypoints": {
